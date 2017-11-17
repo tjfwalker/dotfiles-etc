@@ -1,4 +1,4 @@
 site_name: Home Sweet Computer
-docs_dir: ./README/
 markdown_extensions:
   - admonition
+  - footnotes
