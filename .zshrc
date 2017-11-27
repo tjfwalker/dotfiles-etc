@@ -12,3 +12,7 @@ zstyle :compinstall filename '/Users/tj/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+# Initialise zulu plugin manager
+source "${ZULU_DIR:-"${ZDOTDIR:-$HOME}/.zulu"}/core/zulu"
+zulu init
