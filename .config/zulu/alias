@@ -5,3 +5,5 @@ alias which-command=whence
 
 alias vim='nvim'
 alias vi='vim'
+alias top='vtop'
+alias oldtop='/usr/bin/top'
