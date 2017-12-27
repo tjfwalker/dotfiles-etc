@@ -1,0 +1,4 @@
+Plug 'mhinz/vim-startify'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'metakirby5/codi.vim'
