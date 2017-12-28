@@ -15,12 +15,18 @@ compinit
 
 # Initialise zulu plugin manager
 source "${ZULU_DIR:-"${ZDOTDIR:-$HOME}/.zulu"}/core/zulu"
-zulu init
+zulu init > /dev/null
 
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+eval $(thefuck --alias)
+
 bindkey -v
 export KEYTIMEOUT=1
+
+source ~/plugins-zsh
+
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh

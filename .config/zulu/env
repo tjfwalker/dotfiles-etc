@@ -1,0 +1,2 @@
+export EDITOR='vi'
+export ZPLUG_HOME='/usr/local/opt/zplug'
