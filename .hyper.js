@@ -121,7 +121,8 @@ module.exports = {
     "hyperterm-cursor",
     "hyper-tabs-enhanced",
     "hyper-chesterish",
-    "hyper-statusline"
+    "hyper-statusline",
+    "hyperlinks"
   ],
 
   // in development, you can create a directory under
